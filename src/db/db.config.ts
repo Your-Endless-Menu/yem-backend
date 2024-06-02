@@ -11,6 +11,7 @@ const config: DataSourceOptions = {
     entities: ['dist/**/*.entity.js'],
     migrations: ['dist/db/migrations/*.js'],
     synchronize: false,
+    ssl: true
 };
 
 export default config;
